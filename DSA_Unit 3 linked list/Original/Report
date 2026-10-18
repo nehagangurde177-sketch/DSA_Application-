@@ -1,1 +1,4 @@
-
+1. PROBLEM STATEMENT:
+The Flight Booking System is a C++ application developed using a Singly Linked List to manage flight booking records. 
+It allows users to book flights, display all bookings, search for a booking using Booking ID, and cancel bookings.
+It also demonstrates dynamic memory allocation functions such as malloc(), calloc(), realloc(), and free().
