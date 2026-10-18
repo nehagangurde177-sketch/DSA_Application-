@@ -2,3 +2,25 @@
 The Flight Booking System is a C++ application developed using a Singly Linked List to manage flight booking records. 
 It allows users to book flights, display all bookings, search for a booking using Booking ID, and cancel bookings.
 It also demonstrates dynamic memory allocation functions such as malloc(), calloc(), realloc(), and free().
+
+2. Approach
+The Flight Booking System uses a Singly Linked List to store and manage flight booking records dynamically. 
+Each node contains the booking details and a pointer to the next node. 
+The system supports booking, displaying, searching, and cancelling flights. 
+It also demonstrates dynamic memory allocation using malloc(), calloc(), realloc(), and free().
+
+3. Complexity Analysis
+Operation	          Time Complexity	     Space Complexity
+
+Book / Insert Booking	      0(1)*	               O(1)
+Display Bookings	          0(n)	               O(1)
+Search Booking	            0(n)	               O(1)
+Cancel Booking	            0(n)	               O(1)
+Total Linked List Storage	    —	                 O(n)
+
+4. Conclusion
+
+The Flight Booking System was successfully implemented using a Singly Linked List in C++. 
+It performs insertion, display, searching, and cancellation of flight bookings. 
+The project also demonstrates dynamic memory allocation functions and helps in understanding pointers,
+linked-list operations, and memory management.
