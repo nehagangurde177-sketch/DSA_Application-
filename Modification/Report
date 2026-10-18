@@ -28,3 +28,30 @@ The Flight Booking System was successfully implemented using a Circular Linked L
 It performs booking insertion, display, searching, and cancellation. 
 The project demonstrates circular traversal and the use of dynamic memory allocation functions, 
 helping to understand linked-list operations and memory management.
+
+1. Problem Statement
+
+The Flight Booking System is a C++ application developed using a Circular Linked List to manage flight booking records.
+It allows users to book flights, display all bookings, search for a booking using Booking ID, and cancel bookings.
+The program also demonstrates dynamic memory allocation functions such as malloc(), calloc(), realloc(), and free().
+
+2. Approach: Flight Booking System Using Circular Linked List
+The Flight Booking System uses a Circular Linked List to store and manage flight booking records dynamically.
+Each node contains booking details and a pointer to the next node, while the last node points back to the first node.
+The system supports booking, displaying, searching, and cancelling flights through circular traversal. 
+It also demonstrates dynamic memory allocation using malloc(), calloc(), realloc(), and free().
+
+3. Complexity Analysis: Flight Booking System Using Circular Linked List
+Operation	              Time Complexity    	Space Complexity
+Book / Insert Booking	        O(1)           	        O(1)
+Display Bookings	            O(n)	                  O(1)
+Search Booking by ID	        O(n)                    O(1)
+Cancel Booking by ID	        O(n)	                  O(1)
+Total Linked List Storage     	—	                    O(n)
+
+4. Conclusion
+
+The Flight Booking System was successfully implemented using a Circular Linked List in C++. 
+It performs booking insertion, display, searching, and cancellation. 
+The project demonstrates circular traversal and the use of dynamic memory allocation functions,
+helping to understand linked-list operations and memory management.
