@@ -1,1 +1,47 @@
+1. Problem Statement
 
+To develop an AVL Tree Traversal System using C++. 
+The system constructs a self-balancing binary search tree from user-entered integers.
+It displays the inorder, preorder, postorder, and level-order traversals. 
+The project demonstrates AVL tree insertion, balance factor calculation, tree rotations, and different tree traversal techniques.
+
+2. Approach
+
+The program uses an AVL tree, which is a self-balancing binary search tree. 
+Each new integer is inserted according to binary search tree rules.
+After insertion, the height and balance factor of each affected node are updated. 
+If the tree becomes unbalanced, left or right rotations are performed.
+The four traversals are implemented as follows:
+
+1.Inorder: Visits the left subtree, root, and right subtree.
+2.Preorder: Visits the root, left subtree, and right subtree.
+3.Postorder: Visits the left subtree, right subtree, and root.
+4.Level-order: Visits nodes level by level using a queue.
+
+3. Complexity Analysis
+
+Let n be the number of nodes in the AVL tree.
+
+ Operation                            Time Complexity
+
+Insertion of one node                    O(log n)
+
+Construction of the tree                 O(n log n)
+
+Inorder traversal                          O(n)
+
+Preorder traversal                         O(n)
+
+Postorder traversal                         O(n)
+
+Level-order traversal                       O(n)
+
+Space complexity                             O(n)
+
+
+4. Conclusion
+
+The AVL Tree Traversal System successfully demonstrates the implementation of a self-balancing binary search tree in C++.
+It allows users to insert integers and display four different traversals. 
+The project helps in understanding tree rotations, balance factors, recursion, queues, and the importance
+of maintaining a balanced tree for efficient operations.
