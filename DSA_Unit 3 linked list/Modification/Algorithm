@@ -1,1 +1,30 @@
+1. Algorithm: Flight Management System Using Doubly Linked List
 
+1. Start the program.
+2. Define a node containing flight details and pointers to the previous and next nodes.
+3. Initialize head = NULL.
+4. Display the menu for adding, displaying, searching, booking, and cancelling flights.
+5. Accept the user's choice.
+6. To add a flight, create a new node and link it to the existing list.
+7. To display flights, traverse the list from the head to the end.
+8. To search a flight, compare the flight number or destination.
+9. To book a ticket, store the passenger and booking details.
+10. To cancel a booking, locate the booking and unlink its node.
+11. Repeat until the user selects Exit.
+12. Free the allocated memory and stop the program.
+
+
+2. Algorithm: Flight Management System Using Circular Linked List
+
+1. Start the program.
+2. Define a node containing flight details and a pointer to the next node.
+3. Initialize head = NULL.
+4. Display the menu for adding, displaying, searching, booking, and cancelling flights.
+5. Accept the user's choice.
+6. To add a flight, create a new node and link the last node back to the head.
+7. To display flights, traverse the list starting from the head until the head is reached again.
+8. To search a flight, compare the flight number or destination.
+9. To book a ticket, store the passenger and booking details.
+10. To cancel a booking, locate the booking and adjust the links to remove its node.
+11. Repeat until the user selects Exit.
+12. Free the allocated memory and stop the program.
