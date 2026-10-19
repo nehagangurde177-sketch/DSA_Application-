@@ -1,1 +1,25 @@
+Start the program.
 
+Define a tree node containing data, height, and left and right pointers.
+
+Initialize the root as NULL.
+
+Accept the number of initial nodes and integers from the user.
+
+Insert each integer into the AVL tree.
+
+Update node heights and calculate balance factors.
+
+Perform the required AVL rotations to maintain balance.
+
+Display the menu for additional insertion, traversals, verification, and exit.
+
+If the user selects insertion, accept a new value and update the AVL tree.
+
+Display inorder, preorder, postorder, and level-order traversals with balance factors.
+
+Verify whether the inorder traversal is sorted and display the result.
+
+Repeat the menu until the user selects Exit.
+
+Stop the program.
