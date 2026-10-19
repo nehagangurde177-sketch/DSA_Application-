@@ -1,1 +1,14 @@
+Algorithm: Flight Management System Using Singly Linked List
+1. Start the program.
+2. Define a node structure containing flight details and a pointer to the next node.
+3. Initialize the head pointer to NULL.
+4. Display the menu with options to add, display, search, book, and cancel flights.
+5. Accept the user's choice.
+6. If the user selects Add Flight, create a new node and store the flight details.
+7. If the user selects Display Flights, traverse the linked list and display all flight records.
+8. If the user selects Search Flight, search for a flight using its flight number or destination.
+9. If the user selects Book Ticket, accept passenger details and store the booking information.
+10. If the user selects Cancel Booking, search for the booking and delete its node from the linked list.
+11. Repeat the menu until the user selects Exit.
+12. Free the allocated memory and stop the program.
 
