@@ -1,1 +1,21 @@
 
+Step 1: Start the program and initialize an empty graph.
+
+Step 2: Display the menu with options to create a graph, insert vertices, insert edges, display graph representations, perform traversals, compare results, check paths, and exit.
+
+Step 3: Accept the user's choice.
+
+Step 4: Perform the selected operation:
+- Create Graph: Accept the number, names, and type of vertices and initialize the adjacency matrix.
+- Insert Vertex: Save the previous graph state and add the new vertex.
+- Insert Edge: Validate the endpoints, save the previous graph state, and update the adjacency matrix.
+- Display Matrix/List: Display the current graph connections.
+- BFS: Use a queue to visit reachable vertices level by level.
+- DFS: Use a stack to explore reachable vertices depth-first.
+- Compare Traversals: Perform BFS on the saved and updated graphs, compare the results, and identify newly reachable vertices.
+- Check Path: Use BFS to determine whether a path exists between the source and destination. If found, display the shortest path; otherwise, display an appropriate message.
+Step 5: Display the result of the selected operation.
+
+Step 6: Return to the menu unless the user selects Exit.
+
+Step 7: Stop the program.
