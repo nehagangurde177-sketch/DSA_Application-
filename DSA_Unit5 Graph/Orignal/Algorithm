@@ -1,1 +1,29 @@
 
+Step 1: Start the program.
+
+Step 2: Initialize an empty graph.
+
+Step 3: Display the menu containing the following operations:
+- Create a graph.
+- Insert a vertex.
+- Insert an edge.
+- Display the adjacency matrix.
+- Display the adjacency list.
+- Perform BFS.
+- Perform DFS.
+- Exit.
+Step 4: Accept the user's choice.
+
+Step 5: Perform the selected operation:
+- Create Graph: Accept vertices and initialize the adjacency matrix.
+- Insert Vertex: Add a new vertex to the graph.
+- Insert Edge: Connect two existing vertices.
+- Display Matrix: Print the adjacency matrix.
+- Display List: Display the adjacent vertices of each vertex.
+- BFS: Use a queue to visit reachable vertices level by level.
+- DFS: Use recursion to visit reachable vertices depth-first.
+Step 6: Display the operation result.
+
+Step 7: Repeat Steps 3–6 until the user selects Exit.
+
+Step 8: Stop the program.
