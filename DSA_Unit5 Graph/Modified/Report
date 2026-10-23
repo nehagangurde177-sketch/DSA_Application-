@@ -1,1 +1,25 @@
+1.Problem Statement
 
+A. Modify the program to accept additional vertices or edges and display the updated graph or result.
+B. Modify the program to compare the relevant traversal, MST, or shortest-path results before and after an update.
+C. Modify the program to handle disconnected vertices or an unavailable path and display an appropriate message\.
+
+2. Approach
+1. Initialize an empty graph using an adjacency matrix to represent connections between vertices.
+2. Allow the user to create a directed or undirected graph by entering vertices.
+3. Provide options to insert additional vertices and edges dynamically.
+4. Display the updated graph using an adjacency matrix and adjacency list.
+5. Implement Breadth-First Search (BFS) using a queue and Depth-First Search (DFS) using a stack.
+6. Save the graph's state before each successful vertex or edge insertion to compare BFS results before and after the latest update.
+7. Identify newly reachable vertices and report vertices that cannot be reached from the selected starting vertex.
+8. Check whether a path exists between two selected vertices and display the shortest path in terms of the number of edges using BFS.
+9. Display appropriate error messages for invalid vertices, duplicate vertices, existing edges, and unavailable paths.
+10. Repeat the menu until the user selects the Exit option.
+
+3. Conclusion
+The modified menu-driven Graph Toolkit was successfully implemented in C++. 
+It supports dynamic insertion of vertices and edges, graph representation using adjacency matrix and adjacency list, 
+BFS and DFS traversals, comparison of traversal results before and after updates, and shortest-path detection. 
+It also handles disconnected vertices and unavailable paths with appropriate messages. 
+The modifications improve the program's flexibility and demonstrate practical applications of graph data 
+structures and traversal algorithms.
