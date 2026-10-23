@@ -1,1 +1,22 @@
+1.Problem Statement
 
+Develop a menu-driven C++ graph toolkit that allows a user to create a graph, insert vertices and edges,
+display the graph as an adjacency matrix and adjacency list, and execute BFS and DFS from a selected start vertex.
+Display clear results for each selected operation."give a program for this"
+
+2. Approach
+
+1. Create a graph using an adjacency matrix to represent connections between vertices.
+2. Allow the user to insert vertices and edges dynamically.
+3. Display the graph using both an adjacency matrix and an adjacency list.
+4. Implement Breadth-First Search (BFS) using a queue to visit vertices level by level.
+5. Implement Depth-First Search (DFS) using recursion to explore vertices deeply before backtracking.
+6. Display the traversal results for a user-selected starting vertex.
+7. Provide a menu-driven interface that allows users to perform different graph operations until they choose to exit.
+
+3. Conclusion
+
+The menu-driven Graph Toolkit was successfully implemented in C++. 
+It supports graph creation, insertion of vertices and edges, adjacency matrix and adjacency list representations, 
+and BFS and DFS traversals. The program provides an interactive way to understand graph representation and traversal 
+techniques.
